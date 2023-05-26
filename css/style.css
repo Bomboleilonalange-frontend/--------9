@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(/fonts/Manrope-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url(/fonts/Manrope-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1210px;
+    padding: 0 40px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: 225px 1fr
+}
+
+.header-logo {
+    width: 225px;
+    height: 18px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5, 70px);
+    grid-column-gap: 35px;
+    justify-self: end;
+}
+
+.menu-item {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.main {
+    padding-top: 150px;
+}
+
+.content-start {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 40px;
+}
+
+.art-txt {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.content-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 133%;
+    justify-self: center;
+
+
+    color: #131313;
+}
+
+.content-subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #131313;
+}
+
+.content-center {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    padding-top: 50px;
+}
+
+.content-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.pic {
+    align-self: stretch;
+}
+
+.content-end {
+    padding-top: 50px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-copyright {
+    justify-self: end;
+}
